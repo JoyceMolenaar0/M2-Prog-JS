@@ -18,21 +18,20 @@ class App
 
 
 
-        if(RandomGetal > 0.2 && RandomGetal  < 0.6)
+        else if(RandomGetal > 0.2 && RandomGetal  < 0.6)
         {
             title.style.backgroundColor = '#6699ff'
         }
 
 
 
-        if(RandomGetal > 0.6 && RandomGetal  < 0.75)
+        else if(RandomGetal > 0.6 && RandomGetal  < 0.75)
         {
             title.style.backgroundColor = '#ff99ff'
 
-        }
-
-
-        if(RandomGetal >0.75)
+        } 
+        
+        else if(RandomGetal >0.75)
         {
             title.style.backgroundColor = '#66ff99'
 
@@ -47,19 +46,19 @@ class App
 
         }
 
-        if(RandomGetal > 0.2 && RandomGetal  < 0.6)
+        else if(RandomGetal > 0.2 && RandomGetal  < 0.6)
         {
             NewsItem1.style.backgroundColor = '#ffcccc'
         }
 
 
-        if(RandomGetal > 0.6 && RandomGetal  < 0.75)
+        else if(RandomGetal > 0.6 && RandomGetal  < 0.75)
         {
             NewsItem1.style.backgroundColor = '#66ffcc'
 
         }
 
-        if(RandomGetal >0.75)
+        else if(RandomGetal >0.75)
         {
             NewsItem1.style.backgroundColor = '#0099ff'
 
@@ -75,19 +74,19 @@ class App
 
         }
 
-        if(RandomGetal > 0.2 && RandomGetal  < 0.6)
+        else if(RandomGetal > 0.2 && RandomGetal  < 0.6)
         {
             NewsItem2.style.backgroundColor = '#8cff1a'
         }
 
 
-        if(RandomGetal > 0.6 && RandomGetal  < 0.75)
+        else if (RandomGetal > 0.6 && RandomGetal  < 0.75)
         {
             NewsItem2.style.backgroundColor = '#ffb366'
 
         }
 
-        if(RandomGetal >0.75)
+        else if(RandomGetal >0.75)
         {
             NewsItem2.style.backgroundColor = '#ffb3ff'
 

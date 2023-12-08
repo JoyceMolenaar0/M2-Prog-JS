@@ -58,9 +58,7 @@ class App
 
         if(RandomGetal < 0.4){
             g.fillStyle = '#ffffb3'
-        }
-
-        if(RandomGetal > 0.4){
+        } else if(RandomGetal > 0.4){
             g.fillStyle = 'black'
         }
 
@@ -76,10 +74,6 @@ class App
         
         
         console.log(canvas);
-
-        
-
-
     }
 
    
