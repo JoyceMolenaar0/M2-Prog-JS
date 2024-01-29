@@ -1,13 +1,5 @@
-let a = 4;
-let b = 8;
-
 class App
 {
-
-    
-
-
-
     RunApplication()
     {
         
@@ -20,7 +12,7 @@ class App
 
     LachRoeper()
     {
-        let Roeper = console.log("BWAHAHAHA!!!");
+        let Roeper = "BWAHAHAHA!!!"
         return Roeper
     }
 
@@ -34,15 +26,12 @@ class App
     {
         return getal1 * getal2;
     }
-    
-
-
 }
 
 let app = new App();
 app.RunApplication();
 app.MarioRoeper();
-app.LachRoeper();
+console.log(app.LachRoeper());
 let Optellen = app.GetallenOptellen(21, 51);
 let vermenigvuldigen = app.Vermenigvuldigen(9, 3);
 

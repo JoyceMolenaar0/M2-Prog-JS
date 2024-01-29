@@ -20,17 +20,8 @@ class App
         console.log("Kom maar met je argument");
         console.log("Hier: ");
         console.log(aArgument);
-    }
-
-
-   
+    }   
 }
-
-
-
-
-
-
 
 let app = new App();
 app.RunApplication();
