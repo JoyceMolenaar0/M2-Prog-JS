@@ -2,10 +2,15 @@ class App {
   RunApplication() {
       console.log('RunApplication is aangeroepen!');
 
-      let headers = document.getElementsByTagName("h1");
+      let mijnH1 = document.getElementById("headerId")
+      console.log(mijnH1.innerText);
 
-      for (let i = 0; i < headers.length; i++) {
-          console.log(headers[i].innerText);
+      let headers = document.getElementsByClassName("BandName");
+      console.log(headers);
+      console.log(headers.length);
+
+      for( let i = 0; i < headers.length; i++){
+        console.log(headers[i])
       }
   }
 }
