@@ -3,7 +3,11 @@ class App {
       console.log('RunApplication is aangeroepen!');
 
       let mijnH1 = document.getElementById("headerId")
+      mijnH1.innerText = "Dit is nieuw";
       console.log(mijnH1.innerText);
+
+      let headersByCssClass = document.getElementsByClassName("BandName");
+
 
       let headers = document.getElementsByClassName("BandName");
       console.log(headers);
@@ -12,6 +16,14 @@ class App {
       for( let i = 0; i < headers.length; i++){
         console.log(headers[i])
       }
+      
+
+      headersByCssClass[0].innerText = "nieuws ";
+      headersByCssClass[1].innerText = "reviews";
+      headersByCssClass[2].innerText = "commentaar ";
+      headersByCssClass[3].innerText = "Beste Forums Posts ";
+      headersByCssClass[4].innerText = "PriceWatch ";
+
   }
 }
 
